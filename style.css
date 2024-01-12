@@ -32,7 +32,7 @@ body{
     padding: 0;
     color: #fff;
     font-family: 'Genos', sans-serif;
-    letter-spacing: 20px;
+    letter-spacing: 35px;
     margin-bottom: 25px;
    
 }
@@ -78,4 +78,10 @@ button:hover{
 .orang{
     background: orangered;
     color: white;
+}
+@media  screen and (max-width: 350px) {
+    .container{
+        width: 100%;
+        
+    }
 }
