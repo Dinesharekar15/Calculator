@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    height: 100vh;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    max-width: 320px;
+    height: 480px;
+    border: 1px solid #717377;
+    border-radius: 10px;
+    padding: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+
+
+}
+.brand{
+    /* height: 40px; */
+    width: 100%;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Genos', sans-serif;
+    letter-spacing: 20px;
+    margin-bottom: 25px;
+   
+}
+input{
+    height: 70px;
+    width: 100%;
+    text-align: right;
+    font-size: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+input::placeholder{
+    color: #fff;
+}
+
+
+.buttons{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 71.5%;
+    width: 100%;
+    gap: 1rem 1rem;
+    
+}
+button{
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+button:hover{
+    color: #bbb4b4;
+}
+.green{
+    color: green;
+}
+.orang{
+    background: orangered;
+    color: white;
+}
